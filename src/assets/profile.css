@@ -1,0 +1,83 @@
+/* Contenedor principal del perfil */
+.profile-container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-nav {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .back-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .profile-item {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .profile-item strong {
+    font-weight: bold;
+  }
+  
+  .profile-item span {
+    color: #555;
+  }
+  
+  /* Botón para cambiar la contraseña */
+  .change-password {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .change-password-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .change-password-button:hover {
+    background-color: #218838;
+  }
+  

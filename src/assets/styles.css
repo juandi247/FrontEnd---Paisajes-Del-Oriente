@@ -1,0 +1,100 @@
+/* Estilos del header y el navbar */
+header {
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between; /* Espacio entre los elementos */
+    padding: 0;
+    margin: 0;
+    width: 100%; /* Esto hace que el ul ocupe todo el espacio disponible */
+}
+
+nav ul li {
+    padding: 5px 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px; /* Hacemos los enlaces más pequeños */
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+nav ul li .auth-button {
+    padding: 5px 15px;  /* Botones más pequeños */
+    border: 1px solid #fff;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+nav ul li .auth-button:hover {
+    background-color: #555;
+    border-color: #bbb;
+}
+
+/* Estilo para el texto debajo del header */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Estilos para la sección de Quiénes Somos */
+.about-us {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.about-us h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.text-image.reverse {
+    flex-direction: row-reverse;
+}
+
+.text-image p {
+    max-width: 600px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.about-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
