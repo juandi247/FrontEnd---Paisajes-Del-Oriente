@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+ 
+# CRM Paisajes del Oriente🏢
+CRM Paisajes del Oriente es una aplicación web diseñada para optimizar la gestión empresarial, enfocándose en la administración de clientes, perfiles y operaciones. La plataforma permite a las empresas mejorar su productividad y proporcionar una experiencia personalizada a sus clientes mediante una interfaz moderna y funcionalidades dinámicas.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Características Principales 🛠️
+Gestión de Clientes y Perfiles:
+Permite registrar, administrar y visualizar información detallada de los clientes.
 
-## Available Scripts
+Interfaz Intuitiva:
+Un diseño atractivo desarrollado con React.js que facilita la navegación.
 
-In the project directory, you can run:
+Conexión a APIs Dinámicas:
+La plataforma se conecta a una API para manejar datos de clientes y procesos empresariales.
 
-### `npm start`
+Optimización de Procesos:
+Herramientas clave para agilizar las tareas administrativas y operativas.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Estructura del Proyecto 📂
+bash
+Copiar código
+src/
+├── components/    # Componentes reutilizables como botones y formularios.
+├── pages/         # Vistas principales: Inicio, Clientes, Perfil, etc.
+├── styles/        # Estilización personalizada con CSS.
+├── config.js      # Configuración de variables como la URL de la API.
+└── App.js         # Componente principal y punto de entrada.
+Tecnologías Utilizadas 🚀
+Frontend: React.js, CSS
+Backend/API: Integración con API REST para datos de clientes y procesos empresariales.
+Despliegue: Railway (sin Docker).
+Cómo Ejecutar Localmente 💻
+Clona este repositorio:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copiar código
+git clone https://github.com/tu-usuario/crm-paisajes-del-oriente.git
+cd crm-paisajes-del-oriente
+Instala las dependencias:
 
-### `npm test`
+bash
+Copiar código
+npm install
+Configura la URL de la API:
+Actualiza el valor de backend_api en el archivo src/config.js si es necesario.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ejecuta la aplicación:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+bash
+Copiar código
+npm start
+Despliegue 🌐
+El CRM está desplegado en Railway, con actualizaciones automáticas basadas en cambios realizados en el repositorio.
