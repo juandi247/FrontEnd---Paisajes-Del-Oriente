@@ -5,7 +5,6 @@ import '../assets/styles.css'; // Asegúrate de que la ruta sea la correcta
 import image1 from '../assets/imagen1.jpg';
 import image2 from '../assets/imagen2.jpg';
 
-import backend_api from '../BackendConection';
 
 const Home = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
